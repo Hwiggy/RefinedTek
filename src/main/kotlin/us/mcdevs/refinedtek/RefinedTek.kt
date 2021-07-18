@@ -1,3 +1,9 @@
 package us.mcdevs.refinedtek
 
-class RefinedTek
+import net.fabricmc.api.ModInitializer
+
+class RefinedTek : ModInitializer {
+    override fun onInitialize() {
+        print("Welcome to Fabric!")
+    }
+}
