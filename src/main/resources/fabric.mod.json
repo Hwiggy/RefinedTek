@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "refinedtek",
+  "version": "${version}",
+  "name": "RefinedTek",
+  "description": "A Tech mod for Fabric.",
+  "authors": [
+    "Hwiggy",
+    "CamoMano"
+  ],
+  "license": "MIT License",
+  "icon": "assets/refinedtek/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "us.mcdevs.refinedtek.RefinedTek"
+      }
+    ]
+  },
+  "mixins": [
+    "refinedtek.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.6.2+kotlin.1.5.20",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

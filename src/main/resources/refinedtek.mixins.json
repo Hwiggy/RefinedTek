@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "us.mcdevs.refinedtek.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}
