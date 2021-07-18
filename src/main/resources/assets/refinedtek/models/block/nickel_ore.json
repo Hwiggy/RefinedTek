@@ -1,7 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "layer0": "refinedtek:block/nickel_ore",
-    "layer1": "minecraft:block/stone"
+    "all": "refinedtek:block/nickel_ore"
   }
 }
