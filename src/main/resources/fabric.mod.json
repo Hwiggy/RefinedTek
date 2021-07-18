@@ -15,7 +15,7 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "us.mcdevs.refinedtek.entrypoint.Main"
+        "value": "us.mcdevs.refinedtek.entrypoint.RefinedTek"
       }
     ],
     "client": [
