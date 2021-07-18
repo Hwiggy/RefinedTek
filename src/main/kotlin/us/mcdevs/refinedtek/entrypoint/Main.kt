@@ -1,8 +1,8 @@
-package us.mcdevs.refinedtek
+package us.mcdevs.refinedtek.entrypoint
 
 import net.fabricmc.api.ModInitializer
 
-class RefinedTek : ModInitializer {
+class Main : ModInitializer {
     override fun onInitialize() {
         print("Welcome to Fabric!")
     }

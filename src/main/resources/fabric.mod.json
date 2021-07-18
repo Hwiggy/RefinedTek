@@ -15,7 +15,19 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "us.mcdevs.refinedtek.RefinedTek"
+        "value": "us.mcdevs.refinedtek.entrypoint.Main"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "us.mcdevs.refinedtek.entrypoint.Client"
+      }
+    ],
+    "server": [
+      {
+        "adapter": "kotlin",
+        "value": "us.mcdevs.refinedtek.entrypoint.Server"
       }
     ]
   },
